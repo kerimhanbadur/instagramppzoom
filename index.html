@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>INSTA PP</title>
+  </head>
+  <body>
+    <h1>INSTAGRAM PROFIL FOTOGRAFI BUYUTME</h1>
+    <div class="container ct1">
+          <p> <a href="" id="photoReturnURL"><img src="" id="photoReturn" class="photo" style="display: none;"></a></p>
+          <p id="photo-info" style="display: none;">Orijinal Boyutu Görmek İçin Görsele Tıklayınız.</p>
+    </div>
+    <div class="container ct2">
+      <input type="text" placeholder="kullanıcı adını girin" id="usernameInput" class="input">
+
+      <button onclick="getPhoto($('#usernameInput').val().trim())" id="button" class="button">Bilgileri Getir</button>
+    </div>
+    <div class="container ct3">
+      <ul id="list" class="list" style="display: none;">
+        <li><strong>Kullanıcı Adı : <span class="username"></span></strong></li>
+        <li><strong>Ad Soyad : <span class="name-surname"></span></strong></li>
+        <li><strong>Biyografi : <span class="biography"></span></strong></li>
+        <li><strong>Takipçi Sayısı : <span class="followers"></span></strong></li>
+        <li><strong>Takip Edilen Sayısı : <span class="following"></span></strong></li>
+        <li><strong>Gönderi Sayısı : <span class="post"></span></strong></li>
+      </ul>
+    </div>
+    <script src="script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
+  </body>
+</html>
