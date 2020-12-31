@@ -32,6 +32,19 @@ body {
     border: 2px solid black;
 }
 
+a {
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+    transition: .75s;
+}
+
+a:hover {
+    font-size: 18px;
+    color: black;
+    transition: .75s;
+}
+
 @media (max-width: 510px) {
     .input, .button {
         width: 200px;
