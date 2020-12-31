@@ -1,6 +1,6 @@
 ### Welcome to my Instagram PP Zoom App
-[![Image of the Project](instagramppzoom.jpg "PP Zoom JPG")])
-[See it in action here]()
+[![Image of the Project](ppzoom.jpg "PP Zoom JPG")](https://kerimhanbadur.github.io/instagramppzoom/)
+[See it in action here](https://kerimhanbadur.github.io/instagramppzoom/.)
 
 ### Made with:
 * HTML5
