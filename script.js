@@ -32,7 +32,6 @@ function getPhoto(a) {
        })
 
       .fail(function() { 
-        // code for 404 error 
         alert('Kullanıcı Adı Mevcut Değil.')
       })
     
