@@ -33,12 +33,12 @@ function getPhoto(a) {
 
       .fail(function() { 
         // code for 404 error 
-        alert('Username was not found!')
+        alert('Kullanıcı Adı Mevcut Değil.')
       })
     
     } else {
     
-      alert('The username is invalid!')
+      alert('Kullanıcı Adı Geçersiz.')
     }
   
   }
